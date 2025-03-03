@@ -65,7 +65,7 @@ while (Number.isNaN(primerValor) || Number.isNaN(segundoValor)){               /
     break;
 
 
-    case "división":
+    case "división":                          // se coloca dos case de división, uno con tilde y otro sin tilde, para que reconozca los dos casos
     case "division":
 
      division(primerValor,segundoValor);
